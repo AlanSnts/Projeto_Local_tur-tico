@@ -14,6 +14,15 @@
     --cor-text-primary:#1B1B1B;
     --cor-text-secondary:#333333;
     --cor-border:#D9D9D9;
+    font-family: "Open Sans", sans-serif;
 }
 
+body {
+    background-color: var(--cor-background);
+}
 
+.container {
+    max-width: 1120px;
+    height: 3054px;
+    margin: 88px auto;
+}
