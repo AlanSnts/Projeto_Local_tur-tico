@@ -6,10 +6,10 @@
 
 :root {
     --cor-background:#F5F4F0;
-    --cor-accent:#E95E10;
-    --cor-accent:#E5245E;
-    --cor-accent:#591B98;
-    --cor-accent:#0C51A7;
+    --cor-accent1:#E95E10;
+    --cor-accent2:#E5245E;
+    --cor-accent3:#591B98;
+    --cor-accent4:#0C51A7;
     --cor-text-headline:#E1624F;
     --cor-text-primary:#1B1B1B;
     --cor-text-secondary:#333333;
@@ -25,4 +25,80 @@ body {
     max-width: 1120px;
     height: 3054px;
     margin: 88px auto;
+}
+
+.legend {
+    color: var(--cor-text-headline);
+    font-weight: bold;
+}
+
+.descrition {
+    margin: 40px 0px;
+}
+
+.descrition > p {
+    font-style: italic;
+    font-size: 16px;
+    text-align: center;
+}
+
+.title-list2 {
+    margin: 64px 0px;
+}
+
+img {
+    border-radius: 26px;
+    margin-bottom:20px;
+}
+
+.divisor {
+    height: 1px;
+    width: 100%;
+    background-color: var(--cor-border);
+    margin: 40px 0px;
+}
+
+.card2 {
+    margin: 48px 0px;
+}
+
+
+.feature {
+    margin-top: 16px ;
+    font-weight: bold;
+}
+
+
+
+.feature > p {
+    color: red;
+}
+
+ul>li {
+    margin-left: 20px;
+}
+
+ul>li:nth-child(1) {
+    color: var(--cor-accent4);
+}
+
+ul>li:nth-child(2) {
+    color: var(--cor-accent2);
+}
+
+ul>li:nth-child(3) {
+    color: var(--cor-accent1);
+}
+
+footer {
+    text-align: center;
+}
+
+#by-me {
+    margin-top: 30px;
+}
+
+#by-me>img {
+    margin-top: 19px;
+    vertical-align: middle;
 }
